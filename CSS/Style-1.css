@@ -506,6 +506,11 @@ border-color: white;
 .contact .info .social i{
     margin-left: 10px;
     color: var(--secondary-color);
+    cursor: pointer;
+}
+.contact .info .social i:hover{
+    color: #10cab7;
+    transform: scaleY(1.1);
 }
 @media (max-width:767px){
     .contact .info .label,
