@@ -13,4 +13,4 @@ btn.onclick = () => {
 // Footer ,Get full Year
 let Year = document.querySelector(".footer .year");
 
-Year.innerHTML = new Date().getFullYear();
+Year.textContent = new Date().getFullYear();
