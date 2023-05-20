@@ -522,7 +522,7 @@ border-color: white;
     text-align: center;
     font-size: 20px;
 }
-.footer span{
+.footer span:not(:first-child){
     color: var(--maincolor);
     font-weight: bold;
 }

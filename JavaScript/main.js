@@ -9,3 +9,8 @@ btn.onclick = () => {
   // hide button after click
   btn.style.display = "none";
 };
+
+// Footer ,Get full Year
+let Year = document.querySelector(".footer .year");
+
+Year.innerHTML = new Date().getFullYear();
